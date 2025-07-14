@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('index25.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.div2 {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 150%;
+}
+
+.bar1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.bar1 > a {
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    background: none;
+    border: none;
+    
+}
+
+.bar1 > a:hover {
+    color: #f10000;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column; /* ترتيب البارات رأسياً */
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.bar2, .bar3, .bar4, .bar5, .bar6{
+   display: flex;
+flex-direction: row;      /* محتوى البار أفقي */
+align-items: center;      /* توسيط العناصر رأسيًا */
+justify-content: flex-start;  /* العناصر تبدأ من اليسار (أو اليمين في RTL) */
+gap: 15px;                /* مسافة بين العناصر */
+background: rgba(255, 255, 255, 0.1);
+padding: 15px 25px;
+border-radius: 12px;
+width: 80%;
+max-width: 600px;
+text-align: right;
+transition: transform 0.3s ease;
+}
+
+.bar2:hover, .bar3:hover, .bar4:hover, .bar5:hover, .bar6:hover{
+    transform: translateY(-4px);
+}
+
+.bar2 a, .bar3 a, .bar4 a, .bar5 a, .bar6 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.bar2 a:hover, .bar3 a:hover, .bar4 a:hover, .bar5 a:hover, .bar6 a:hover{
+    color: #ffd700;
+}
+
+.bar0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.bar0 > a {
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    background: none;
+    border: none;
+    
+}
+
+.bar0 > a:hover {
+    color: #f10000;
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* خلفية داكنة */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.bar2 img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}

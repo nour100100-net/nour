@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ pagetitle }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index5.css') }}">
+    </head>
+    <body>
+            <div class="div2">NOUR</div>
+            <div class="bar1">
+                <form accept="">
+                    <input type="search" placeholder="search here ...">
+                    <i class="fa fa-search"></i>
+                </form>
+                <a href="#">الصفحة الرئيسية</a>
+                <a href="#">المكتبة</a>
+                <a href="#">معلومات عن الموقع</a>
+                <a href="#">اتصل بنا</a>
+            </div>
+       {%block body%}
+       {%endblock%}
+            <div class="bar0">
+                <a href="#">روايات</a>
+                <a href="#">خيال</a>
+                <a href="#">مغامرة</a>
+                <a href="#">فلسفة</a>
+                <a href="#">نصائح للقرائة</a>
+            </div>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 </p>
+    </footer>
+    
+    </body>
+</html>
